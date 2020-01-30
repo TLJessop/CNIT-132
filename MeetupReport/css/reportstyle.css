@@ -17,3 +17,9 @@ img {
         height: 300px;
         width: 200px;
     }
+p {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
