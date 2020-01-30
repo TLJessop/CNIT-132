@@ -14,8 +14,11 @@ li.navbar {
     padding-left: 10px;
 }
 img {
-        height: 300px;
-        width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
     }
 p {
     display: block;
