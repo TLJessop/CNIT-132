@@ -26,3 +26,7 @@ p {
   margin-right: auto;
   width: 50%;
 }
+
+footer {
+    font-size: small;
+}
