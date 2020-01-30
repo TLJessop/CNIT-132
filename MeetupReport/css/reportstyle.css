@@ -13,3 +13,7 @@ li.navbar {
     display: inline;
     padding-left: 10px;
 }
+img {
+        height: 300px;
+        width: 200px;
+    }
