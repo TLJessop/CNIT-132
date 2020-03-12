@@ -12,6 +12,13 @@ h1{
     color: red;
     text-align: center;
 }
+
+h2{
+    color: blue;
+    text-align: right;
+    font-style: italic;
+}
+
 p::first-letter{
     font-size: 40px;
     font-weight: bold;
