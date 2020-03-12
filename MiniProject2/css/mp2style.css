@@ -1,1 +1,8 @@
 body{background-color: yellow;}
+
+a:link{color: red;}
+
+a:visited{color: blue;}
+
+h1{color: red;
+    text-align: center;}
