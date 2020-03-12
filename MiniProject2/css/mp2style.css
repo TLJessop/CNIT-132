@@ -42,8 +42,20 @@ table{
     background-color: cyan;
     border-spacing: 5px;
     border-collapse: collapse;
+    animation-name: tableChange;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
 }
-
+@keyframes tableChange{
+    from{
+        background-color: cyan;
+        color: black;
+    }
+    to{
+        background-color: green;
+        color: white;
+    }
+}
 td {
     padding: 15px;
     text-align: center;
