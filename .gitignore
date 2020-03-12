@@ -1,3 +1,6 @@
 # Professor given files
 
 CNIT132WorkFiles/*
+
+# Not tracking compreesed files
+*.zip
