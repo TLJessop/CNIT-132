@@ -1,8 +1,19 @@
 body{background-color: yellow;}
 
-a:link{color: red;}
+a:link{
+    color: red;
+}
 
-a:visited{color: blue;}
+a:visited{
+    color: blue;
+}
 
-h1{color: red;
-    text-align: center;}
+h1{
+    color: red;
+    text-align: center;
+}
+p::first-letter{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
