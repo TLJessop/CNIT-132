@@ -19,7 +19,7 @@ h2{
     font-style: italic;
 }
 
-span{
+div {
     font-size: xx-large;
 }
 
@@ -60,3 +60,15 @@ td {
     padding: 15px;
     text-align: center;
   }
+  #movetxt {
+    color: red;
+    animation-name: moving;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;    
+}
+
+@keyframes moving {
+    from {transform: translateX(10%);}
+    to {transform: translateX(80%);}
+}
