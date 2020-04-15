@@ -1,6 +1,8 @@
 :root{
     --color: blue;
     --background-color: lightgreen;
+    --main-color: maroon;
+    --main-background-color: white;
 }
 
 header {
@@ -14,3 +16,23 @@ footer{
     color:var(--color);
     background-color: var(--background-color);
 }
+.parent{
+    width: 860px;
+    min-height: 500px;
+    display: flex;
+    color: var(--main-color);
+    background-color: var(--main-background-color);
+}
+div{
+    border: 2px solid var(--color, black);
+}
+
+.content{
+    flex-grow: 1;
+}
+
+.menu{
+    min-width: 200px;
+
+}
+
