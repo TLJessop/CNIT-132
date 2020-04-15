@@ -5,21 +5,20 @@
     --main-background-color: white;
 }
 
-header {
+.main{
+    width: 860px;
+    margin: 0px;
+    padding: 0px;
+}
+.head-foot {
     text-align: center;
     color:var(--color);
     background-color: var(--background-color);
 }
 
-footer{
-    text-align: center;
-    color:var(--color);
-    background-color: var(--background-color);
-}
 .parent{
-    width: 860px;
-    min-height: 500px;
     display: flex;
+    align-items: stretch;
     color: var(--main-color);
     background-color: var(--main-background-color);
 }
@@ -39,7 +38,7 @@ div{
 ul{
     list-style-type: none;
 }
-a{
+.menu a{
     color: var(--main-color);
 }
 
