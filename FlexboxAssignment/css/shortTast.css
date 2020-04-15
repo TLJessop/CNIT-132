@@ -1,13 +1,16 @@
 :root{
     --color: blue;
+    --background-color: lightgreen;
 }
 
 header {
     text-align: center;
     color:var(--color);
+    background-color: var(--background-color);
 }
 
 footer{
     text-align: center;
     color:var(--color);
+    background-color: var(--background-color);
 }
