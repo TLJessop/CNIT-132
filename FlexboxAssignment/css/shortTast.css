@@ -24,15 +24,22 @@ footer{
     background-color: var(--main-background-color);
 }
 div{
-    border: 2px solid var(--color, black);
+    border: 2px solid black;
 }
 
 .content{
     flex-grow: 1;
+    text-align: center;
 }
 
 .menu{
     min-width: 200px;
 
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: var(--main-color);
 }
 
