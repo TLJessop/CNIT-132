@@ -10,9 +10,10 @@
             $mailTo = "tljessop@hotmail.com";
 
             $headers = "From: ".$mailFrom;
-            $txt = "Your school contact from was filled in by".$fname." ".$lname."\n\n".$message;
+            $txt = "Your school contact from was filled in by".$fname." ".$lname."\n\n".$message."/n/n".$phonenum;
 
-           mail();
+           mail($mailTo,$subject,$txt, $headers);
+           header("Location: index.php?mailsent");
 
        } 
 
