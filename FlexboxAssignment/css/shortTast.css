@@ -1,0 +1,13 @@
+:root{
+    --color: blue;
+}
+
+header {
+    text-align: center;
+    color:var(--color);
+}
+
+footer{
+    text-align: center;
+    color:var(--color);
+}
