@@ -1,0 +1,44 @@
+:root{
+    --color: blue;
+    --background-color: rgb(48, 201, 228);
+    --main-color: black;
+    --main-background-color: lightblue;
+}
+
+.main{
+    width: 860px;
+    margin: 0px;
+    padding: 0px;
+}
+.head-foot {
+    text-align: center;
+    color:var(--color);
+    background-color: var(--background-color);
+}
+
+.parent{
+    display: flex;
+    align-items: stretch;
+    color: var(--main-color);
+    background-color: var(--main-background-color);
+}
+div{
+    border: 2px solid black;
+}
+
+.content{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.menu{
+    min-width: 200px;
+
+}
+ul{
+    list-style-type: none;
+}
+.menu a{
+    color: var(--main-color);
+}
+
