@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is the contact page">
+        <title>Contact</title>
+        <link rel="stylesheet" href="./css/mpstyle.css">
+        <link rel="stylesheet" href="./css/contact.css">
+    </head>
+    <body>
+        <header>
+            <h1>Contact Me</h1>
+            <ul>
+                <li>
+                    <a href="./homework1.html">Home</a>
+                </li>
+                <li>
+                    <a href="./assignments.html">Assignments</a>
+                </li>
+            </ul>
+        </header>
+        
+        <hr>
+        <p>Send me a message</p>
+        <form action="./php/contactform.php" method="POST">
+            <div class="flexwrap">
+                <div class="row1">
+                    <div class="textFeild">
+                        First Name:
+                        <input type="text" name="firstName" placeholder="first name">
+                    </div>
+    
+                    <div class="textFeild">
+                        Last Name:
+                        <input type="text" name="lastName" placeholder="last name">
+                    </div>
+                </div>
+
+                <div class="row2">
+                    <div class="textFeild">
+                        Phone Number:
+                        <input type="number" name="phoneNumber" placeholder="111-111-1111">
+                    </div>
+    
+                    <div class="textFeild">
+                        Email:
+                        <input type="text" name="email" placeholder="something@example.com">
+                    </div>
+                </div>
+
+                <div class="row3">
+                    <div class="textFeild">
+                        Subject:
+                        <input type="text" name="subject">
+                    </div>
+
+                    <div class="textFeild">
+                        Message:
+                        <textarea name="Message"></textarea>
+                    </div>
+                
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    
+    </body>
+</html>
